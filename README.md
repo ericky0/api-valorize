@@ -1,7 +1,25 @@
-# Awesome Project Build with TypeORM
+# NLW VALORIZA
 
-Steps to run this project:
+## Regras
 
-1. Run `npm i` command
-2. Setup database settings inside `data-source.ts` file
-3. Run `npm start` command
+- Cadastro de usuário
+
+  [ x ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail
+
+  [ x ] Não é permitido cadastrar usuário sem e-mail
+
+- Cadastro de TAG
+
+  [ x ] Não e permitido cadastrar mais de uma tag com o mesmo nome
+
+  [ x ] Não é permitido cadastrar tag sem nome
+
+  [ x ] Não é permitido cadastro por usuários que não sejam administradores
+
+- Cadastro de elogios
+
+  [ x ] Não é permitido um usuário cadastrar um elogio para si
+
+  [ x ] Não é permitido cadastrar elogios para usuários inválidos
+
+  [ x ] O usuário precisa estar autenticado na aplicação
