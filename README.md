@@ -23,13 +23,22 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Node.js](https://nodejs.org/en/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
+- [Docker](https://www.docker.com/)
+- [TypeORM](https://typeorm.io/#/)
+
+Algumas das bibliotecas
+
 - [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
+- [BCryptJS](https://www.npmjs.com/package/bcryptjs)
+- [class-transformer](https://github.com/typestack/class-transformer)
+- [uuid](https://www.npmjs.com/package/uuid)
+
 
 ## 🚀 Como executar
 
 - Clone o repositório
 - Rode `yarn` para baixar as dependências
-- Você deverá criar um container com o postgres no docker 🐳
+- Em seguida você deverá criar um container com o postgres no docker 🐳
 - Para rodar e abrir arquivos `.yml` você tem que instalar o Docker Composer
   Depois da instalação, vá para o diretório do seu docker-composer.yml e execute `docker-compose up` para criar e iniciar os serviços do arquivo docker-compose.yml
 - Rode `yarn typeorm migration:run` para criar as tabelas do banco de dados.
