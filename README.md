@@ -29,6 +29,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Clone o repositório
 - Rode `yarn` para baixar as dependências
+- Você deverá criar um container com o postgres no docker 🐳
+- Para rodar e abrir arquivos `.yml` você tem que instalar o Docker Composer
+  Depois da instalação, vá para o diretório do seu docker-composer.yml e execute `docker-compose up` para criar e iniciar os serviços do arquivo docker-compose.yml
 - Rode `yarn typeorm migration:run` para criar as tabelas do banco de dados.
 - Rode o `yarn dev` para iniciar a aplicação.
 
