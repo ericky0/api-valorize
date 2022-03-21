@@ -1,5 +1,5 @@
 
-<h1> Api de </h1>
+<h1> Api de elogios e tags para usuários </h1>
 
 > Status: Concluído
 
