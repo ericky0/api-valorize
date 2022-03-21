@@ -25,6 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Express](https://expressjs.com/pt-br/)
 - [Docker](https://www.docker.com/)
 - [TypeORM](https://typeorm.io/#/)
+- [PostgreSQL](https://www.postgresql.org/)
 
 Algumas das bibliotecas
 
