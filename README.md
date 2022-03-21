@@ -1,25 +1,35 @@
-# NLW VALORIZA
 
-## Regras
+<h1> Api de </h1>
 
-- Cadastro de usuário
+> Status: Concluído
 
-  [ x ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail
+## Essa aplicação é capaz de: 
 
-  [ x ] Não é permitido cadastrar usuário sem e-mail
++ criar usuários, tags e elogios <--> (`users | tags | compliments`)
++ autenticar um usuário por meio de um `JWT`
++ para criar um compliment e enviar a outra pessoa o usuário deve estar autenticado
++ só é possível criar uma tag quando o usuário autenticado for um administrador
++ listar todos os compliments que um usuário enviou a alguém
++ listar todos os compliments que o usuário recebeu
++ listar todas as tags existentes
++ listar todos os usuários existentes
 
-- Cadastro de TAG
+![bd](https://user-images.githubusercontent.com/53923000/159203888-376209de-ec84-47e7-8a6f-9d8016be7558.PNG)
 
-  [ x ] Não e permitido cadastrar mais de uma tag com o mesmo nome
+## ✨ Tecnologias usadas
 
-  [ x ] Não é permitido cadastrar tag sem nome
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-  [ x ] Não é permitido cadastro por usuários que não sejam administradores
+- [Node.js](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
 
-- Cadastro de elogios
+## 🚀 Como executar
 
-  [ x ] Não é permitido um usuário cadastrar um elogio para si
+- Clone o repositório
+- Rode `yarn` para baixar as dependências
+- Rode `yarn typeorm migration:run` para criar as tabelas do banco de dados.
+- Rode o `yarn dev` para iniciar a aplicação.
 
-  [ x ] Não é permitido cadastrar elogios para usuários inválidos
-
-  [ x ] O usuário precisa estar autenticado na aplicação
+Por fim, a aplicação estará disponível em `http://localhost:3000`
